@@ -15,7 +15,7 @@ int * fun (int size)
 
 int main()
 {
-    int *ptr,sz=0;
+    int *ptr,sz=0; // you can give any number by replacing 0.
     ptr=fun(sz);
     
     for (int i=0;i<sz;i++)
